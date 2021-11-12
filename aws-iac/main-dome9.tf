@@ -17,7 +17,6 @@ provider "aws" {
   profile = "crs-cs-aws"
   region  = "us-east-1"
 }
-
 provider "dome9" {
   dome9_access_id     = "${var.dome9_access_id}"
   dome9_secret_key    = "${var.dome9_secret_key}"
